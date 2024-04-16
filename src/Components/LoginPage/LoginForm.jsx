@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './LoginForm.css';
 
 const LoginPage = () =>{
@@ -20,7 +21,7 @@ const LoginPage = () =>{
                 <button type="submit" >Login in</button>
 
                 <div className="register-lin">
-                    <p>Need a new account?<a href='#'>Register</a></p> 
+                    <p>Need a new account?<Link to="/Register">Register</Link></p>
                 </div>
             </form>
         </div>
@@ -28,4 +29,4 @@ const LoginPage = () =>{
     )
 }
 
-export default LoginPage
+export default LoginPage;
