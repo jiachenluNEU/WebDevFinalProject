@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterForm />} />
-        <Route path="/choose-plan" element={<ChoosePlanPage />} />  // Add route for choosing plans
+        <Route path="/choose-plan" element={<ChoosePlanPage />} />  
       </Routes>
     </div>
   </Router>
